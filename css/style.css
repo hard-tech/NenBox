@@ -1,0 +1,26 @@
+@import url('http://fonts.cdnfonts.com/css/minecraft-4');
+@import url(//db.onlinewebfonts.com/c/b98bccb1541b6c83ed67f80018116dde?family=Minecraft+Evenings);
+
+body{
+    background-image: url(../image/background/8o7g81.png);
+    font-family: 'Minecraft', sans-serif;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    color: red;
+}
+
+.fontmcP{font-family: 'Minecraft', sans-serif;}
+.fontmcS{font-family: "Minecraft Evenings";}
+
+a{color: red;}
+.nr{ color: rgb(255, 0, 0); text-shadow: 0 0 2px rgb(255, 0, 0); }
+.nv{ color: rgb(0, 202, 0); text-shadow: 0 0 5px rgb(18, 214, 0);}
+.nvf{ color: rgb(0, 177, 0); text-shadow: 0 0 2px rgb(18, 214, 0);}
+.nb{ color: rgb(0, 81, 255); text-shadow: 0 0 5px rgb(0, 82, 235) ;}
+.nj{ color: yellow; text-shadow: 0 0 5px yellow, 0 0 10px yellow; }
+.ng{ color: rgb(255, 183, 0); text-shadow: 0 0 5px rgb(255, 183, 0);}
+.nbl{text-shadow:  0 0 5px rgb(231, 231, 231);}
+.cn{color: black;}  
+
+a{text-decoration: none;}
