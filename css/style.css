@@ -170,24 +170,30 @@ a{text-decoration: none;}
   }
 
   /* ### intro ### */
-
-  .intro{
+  @media (min-width:1300px) {
+    .intro{
       display: flex;
       justify-content: center;
       align-items: center;
   }
+  }
 
-  .presentation{
+  @media (max-width:1300px) {
+    .intro {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+
+  /* .presentation{
       background-image: url(../image/img/mc-player3.png);
       background-position: left;
       background-position: -120px;
       background-size: 40%;
       background-repeat: no-repeat;
-  }
-
-    .Pub{
-        margin-left: 220px;
-    }
+  } */
 
   li{list-style-type: none;}
 
