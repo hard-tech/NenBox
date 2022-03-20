@@ -1,15 +1,13 @@
-.Bande-neon-rouge{
-    padding:  20px;
-    background-color: rgba(0, 0, 0, 0.651);
-    box-shadow: -10px -5px 5px red;
-    margin:  20px;
-    border-radius: 15px;
+.Bande-noir{
+    padding:  50px;
+    background-color: rgb(31, 31, 31);
+    color: white;
 }
-.Bande-neon-rouge:hover{
-    padding:  20px;
-    background-color: rgba(0, 0, 0, 0.651);
-    transition: 0.75s;
-    box-shadow: 0px 8px 8px red;
-    margin:  20px;
-    border-radius: 15px; 
+
+.Bande-blanc{
+    padding:  50px;
+    background-color: white;
+    color: rgb(31, 31, 31);
 }
+
+.txt-noir{color: rgb(31, 31, 31);}
