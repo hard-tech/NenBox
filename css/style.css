@@ -47,11 +47,11 @@ a{text-decoration: none;}
           /* height: 50px; */
           margin-left: auto;
           margin-right: auto;
-          display: block;
           border-radius: 15px;
           padding: 15px;
           padding-top: 25px;
           cursor: pointer;   
+          display: block;
           text-align: center;
           text-decoration: none;
       }
