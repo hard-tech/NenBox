@@ -7,7 +7,7 @@
 
 body{
     background-image: url(../image/background/8o7g81.png);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(3px);
     font-family: 'KanitM', sans-serif;
     background-position: top;
     background-size: cover;
