@@ -7,7 +7,7 @@
 
 body{
     background-image: url(../image/background/8o7g81.png);
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(2px);
     font-family: 'KanitM', sans-serif;
     background-position: top;
     background-size: cover;
@@ -20,8 +20,8 @@ body{
 
 a{color: white;}
 .nr{ color: rgb(255, 0, 0); text-shadow: 0 0 2px rgb(255, 0, 0); }
-.nv{ color: rgb(0, 202, 0); text-shadow: 0 0 5px rgb(18, 214, 0);}
-.nvf{ color: rgb(0, 177, 0); text-shadow: 0 0 2px rgb(18, 214, 0);}
+.nv{ color: rgb(0, 230, 0); text-shadow: 0 0 5px rgb(19, 233, 0);}
+.nvf{ color: rgb(0, 170, 0); text-shadow: 0 0 2px rgb(19, 226, 0);}
 .nb{ color: rgb(0, 81, 255); text-shadow: 0 0 5px rgb(0, 82, 235) ;}
 .nbc{ color: rgb(0, 195, 255); text-shadow: 0 0 5px rgb(0, 195, 255) ;}
 .nvio{ color: rgb(119, 0, 255); text-shadow: 0 0 5px rgb(119, 0, 255);}
@@ -80,10 +80,10 @@ a{text-decoration: none;}
   .container .card:hover .face.face1{
     transform: translateY(0);
     box-shadow:
-      inset 0 0 60px rgb(255, 102, 0),
-      inset 20px 0 80px #ff9900,
+      inset 0 0 60px rgb(255, 72, 0),
+      inset 20px 0 80px #ffae00,
       inset -20px 0 80px #ff0000,
-      inset 20px 0 300px #ff9100,
+      inset 20px 0 300px #ffae00,
       inset -20px 0 300px #ff0000,
       0 0 50px #fff,
       -10px 0 80px #ffae00,
@@ -190,3 +190,19 @@ a{text-decoration: none;}
     }
 
   li{list-style-type: none;}
+
+  ul.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .vote-button{
+    width: 50%;
+    height: 250px;
+    background-color: #333;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid #fff;
+  }

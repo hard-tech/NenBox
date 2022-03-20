@@ -10,4 +10,12 @@
     color: rgb(31, 31, 31);
 }
 
+.Bande-bg-mc{
+    padding: 50px;
+    background-image: url(../image/img/dev.png);
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .txt-noir{color: rgb(31, 31, 31);}

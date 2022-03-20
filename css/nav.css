@@ -1,12 +1,9 @@
 .logo {
   float: left;
-  margin-left: 5%;
   line-height: 50px;
   font-size: 2em;
 }
 .logo:hover{
-  float: left;
-  margin-left: 5%;
   line-height: 50px;
   font-size: 2em;
   text-shadow:  0 0 10px rgb(231, 231, 231);
