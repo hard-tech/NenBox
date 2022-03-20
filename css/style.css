@@ -142,7 +142,7 @@ a{text-decoration: none;}
     color:#333;
   }
   
-  .container .card .face.face2 .content a{
+  .container .card .face.face2 .content a:not(.nostyle){
     text-decoration:none;
     color: black;
     box-sizing: border-box;
