@@ -51,13 +51,13 @@ a{text-decoration: none;}
     display: flex;
     justify-content: space-between;
     flex-wrap:wrap;
-    justify-content: center;
   }
   
   .container .card{
     position: relative;
     border: none;
   }
+
   
   .container .card .face{
     width:300px;
@@ -184,6 +184,15 @@ a{text-decoration: none;}
       justify-content: center;
       align-items: center;
       flex-direction: column;
+    }
+
+    .container {
+      justify-content: center; 
+    }
+    .card{
+
+      margin-left: 20px;
+      margin-right: 20px;
     }
   }
 
