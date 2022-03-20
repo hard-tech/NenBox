@@ -51,7 +51,7 @@ a{text-decoration: none;}
     display: flex;
     justify-content: space-between;
     flex-wrap:wrap;
-    
+    justify-content: center;
   }
   
   .container .card{
