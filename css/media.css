@@ -1,0 +1,126 @@
+
+/* ### Media 380 Px Start ### */
+
+@media(max-width:380px){
+    .Bande-blanc{padding: 10px;}
+    .Box-invite{padding: 10px 10px;}
+}
+
+
+@media(min-width:380px){
+    .Bande-blanc{padding: 30px;}
+    .Box-invite{width: 320px;padding: 10px 15px;}
+}
+
+/* ### Media 380 Px End ### */
+
+/* ### Media 580 Px Stard ### */
+
+@media(min-width:580px){
+    .ico-page{width: 40%;}
+    .Bande-blanc{padding: 50px;}
+    .page{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    .cont-grade {margin-top: 10px;}
+}
+
+@media(max-width:580px){
+    .player-icon{
+        width: 250px;
+    }
+    .Bande-blanc{padding: 50px;}
+    .page{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    .container .card:hover .face.face2 {padding-top: 70px;}
+    .ul-flex {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    /* .face.face2 .grade{height: 400px;} */
+  .container .card:hover .face.face2:not(.key, .titel){height: 400px;}
+  .cont-grade {margin-top: -20px;}
+}
+
+/* ### Media 580 Px Start ### */
+
+/* ### Media 900 Px End ### */
+
+@media(max-width:900px){
+    iframe.discord{
+        height: 450px;
+    }
+    .ico-page{width: 75%;}
+    .creeper-icon{
+        min-width: 150px;
+        max-width: 200px;
+    }
+    .container .card .face:not(.face1-grade){
+        height: 250px;
+    }
+    .face2{margin-top: -50px;}
+    .container .card:hover .face.face2 {padding-top: 70px;}
+    .face1-grade{height: 300px;}
+
+}
+
+@media(min-width:900px){
+    /* .container .card:hover .face.face1{height: 40px;} */
+    iframe.discord{
+        width: 400px;
+        height: 650px;
+    }
+    .creeper-icon{
+        min-width: 250px;
+        max-width: 300px;
+    }
+    .container .card{width: 300px;}
+    
+    .container .card .face{
+        height: 200px;
+    }
+}
+
+/* ### Media 900 Px End ### */
+
+/* ### Media 1300 Px Start ### */
+
+@media (max-width:1300px) {
+    .player-icon{
+    max-width: 320px;
+  }
+    .intro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container {
+        justify-content: center; 
+    }
+    .card{
+
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+
+@media (min-width:1300px) {
+    .intro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+/* ### Media 1300 Px End ### */

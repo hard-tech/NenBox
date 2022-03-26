@@ -1,17 +1,22 @@
 .Bande-noir{
-    padding:  50px;
+    padding:  30px;
     background-color: rgb(31, 31, 31);
     color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .Bande-blanc{
-    padding:  50px;
     background-color: white;
     color: rgb(31, 31, 31);
 }
 
 .Bande-bg-mc{
-    padding: 50px;
+    padding: 30px;
     background-image: url(../image/img/dev.png);
     background-position: top;
     background-size: cover;

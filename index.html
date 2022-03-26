@@ -2,11 +2,41 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" lang="fr" content="Serveur, mincraft  PvP Faction !" />
+    <meta property="og:locale" content="en_FR" />
+
+    <meta property="og:type" content="shop" />
+    <meta property="og:title" content="NenBox :" />
+    <meta property="og:description" content="
+    ╔═════ ∘◦ ☆ ◦∘ ══════╗
+           NenBox
+      ╚════════════════╝
+│・Un serveur bassé sur le PvP fac semi modee (des craft custome) ! 
+│🜲 Des map exceptionnel dans le <#940942563613999104> du serveur ! 
+│♚ Le staff est toujours à l'écoute (On recrute) ! 
+│✭ Un classement faction avec plus de 30€ a gagné tout les mois ! 
+
+Et pleins d'autres fonctionnalités ! 
+
+Comme des jeux et des évent pour gagner de l'argent sur le discord qui est relié en joue ! 
+
+Tu pourras aussi parler dans le général discord pour gagner aussi de l'argent !
+
+Je te laisse regarder le discord et le site 😉
+
+Discord: https://discord.gg/Sqs24BHBfH
+Site: https://hard-tech.github.io/NenBox/
+Bannière: https://c.tenor.com/qinS5aq2Jt0AAAAC/server.gif 
+    " />
+    <meta property="og:url" content="https://www.contentkingapp.com/academy/open-graph/" />
+    <meta property="og:site_name" content="NenBox" />
     <meta property="og:image" content="https://hard-tech.github.io/NenBox/image/icon/NenBox-logo.png" />
-    <meta name="keywords" content="NenBox, Serveur Minecraft, Nen Box, Minecraft Store" /> 
+    <meta property="og:image:secure_url" content="https://hard-tech.github.io/NenBox/image/icon/NenBox-logo.png" />
+    <meta name="copyright" content="© New-webTech Inc." />
+    
+    <meta name="keywords" content="NenBox, Serveur Minecraft, Xano Craft, Minecraft Store"/> 
+    <meta http-equiv="refresh" content="1000">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,22 +47,28 @@
     <link rel="stylesheet" href="./css/style.css" /> 
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/band-color.css">
+    <link rel="stylesheet" href="./css/media.css">
     <script src="https://kit.fontawesome.com/3d88115991.js" crossorigin="anonymous"></script>
+    <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=LIVE_CLIENT_ID" ></script>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/nav.js"></script>
     <script src="./js/index.js"></script>
+    <script src="./js/paypal.js"></script>
     <title>NenBox</title>
 </head>
 <header>
     <!-- The Navigation Bar -->
 <div class="navbar-js bd-subnavbar">
     <nav>
-        <ul class="nav">
-          <li class="logo"><a href="#">NenBox <img src="./image/icon/NenBox-logo-min.png" width="50px" alt="□"><span class="mini"></span></a></li>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#shop">Shop</a></li>
-          <li><a href="https://serveur-prive.net/minecraft/nenbox-11559/vote" target="_blank">Vote</a></li>
-          <li><a href="#contact">Contact</a></li>
+      <ul class="nav">
+            <li class="logo"><a href="#">NenBox <img src="./image/icon/NenBox-logo-min.png" width="35px" style="margin-top: -8px;" alt="□"><span class="mini"></span></a></li>
+          <div class="page px-2">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="https://minecraftservers.org/vote/627642" target="_blank">Vote</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </div>
         </ul>
     </nav>
 </div>
@@ -46,51 +82,56 @@
         <br><br><br><br><br><br><br><br><br>
         <div class="box">
             <div class="Bande-blanc presentation intro">
-                <p class="p-4">
-                    <img src="./image/img/mc-player3.png" alt="">
+                <p>
+                    <br><img src="./image/img/mc-player3.png" class="player-icon" alt=""><br>
                     <div class="Pub">
-                        <h2>NenBox :</h2>
-                        <ul class="nostyle">
-                            <ul class="nostyle">
-                                <li class="nostyle">╰ ⚔️ | PvP Faction, tu pourras pub ta fac , </li>
-                                <li class="nostyle">╰ 🧑‍🔬 | Serveur acceptant les cracks,</li>
-                                <li class="nostyle">╰ 📰 | Et avec les ajouts du serveur, et des crafts costumes, </li>
-                                <li class="nostyle">╰ 🎉 | Des évènements réguliers,</li>
-                                <li class="nostyle">╰ ❔ | Et bien plus!</li>
-                            </ul>
-                        </ul>
-                        <p class="text-center">
-                        tu pourras crée ta Faction et gagner jusqu'à 30€ par mois grâce au classement 
-                          <br>
-                        <b>
-                          Nenbox vous attend avec impatience, vous ainsi que la communauté qui serait prête à faire évoluer le serveur avec leurs connaissances.
-                          Qu'attendez-vous! Et rejoignez le serveur Minecraft.
-                        </b>
-                        </p>
-                        <ul class="nostyle">
-                            <li class="nostyle">Ip : nenbox.hosterfy.eu </li>
-                            <li class="nostyle">Version : tout version </li>
-                            <li class="nostyle">Discord : <a class="txt-noir nostyle" href="https://discord.gg/e4GMTJabFn">NenBox.discord</a></li>
-                        </ul>
+                      <h2>NenBox :</h2>
+                      <ul class="nostyle">
+                          <ul class="nostyle">
+                              <li class="nostyle">╰ ⚔️ | PvP Faction, tu pourras pub ta fac , </li>
+                              <li class="nostyle">╰ 🧑‍🔬 | Serveur acceptant les cracks,</li>
+                              <li class="nostyle">╰ 📰 | Et avec les ajouts du serveur, et des crafts costumes, </li>
+                              <li class="nostyle">╰ 🎉 | Des évènements réguliers,</li>
+                              <li class="nostyle">╰ ❔ | Et bien plus!</li>
+                          </ul>
+                      </ul>
+                      <p class="text-center">
+                        Et pleins d'autres fonctionnalités ! 
+
+                        Comme des jeux et des évènements pour gagner de l'argent sur le discord qui est relié en joue ! 
+                        <br><br>
+                        Tu pourras aussi parler dans le général discord pour gagner aussi de l'argent !
+                        <br>
+                        Je te laisse regarder le discord et le site 😉
+                        <br><br>
+                      <ul class="nostyle">
+
+                          <b>Discord: </b> <a class="txt-noir nostyle" href="https://discord.gg/Sqs24BHBfH">NenBox.discord</a><br>
+                          <b>Site: </b> <a class="txt-noir nostyle" href="https://hard-tech.github.io/NenBox/">nenboxmc.com</a> <br>
+                          <b>Ip : </b> nenbox.hosterfy.eu<br>
+                          <b>Version : </b> tout version<br>
+                      </ul>
+                      </p>
                     </div>
-                    <img src="./image/img/discord-transparent-server-icon-28.jpg" class="p-4" alt="">
+                  
+                    <img src="./image/img/discord-transparent-server-icon-28.jpg" class="py-4 creeper-icon" alt="">
                 </p>
             </div>
             <div class="Bande-noir" id="shop">
                 <h1 class="text-center nbl"> ꧁ NenBox Shop ꧂</h1>
-                <br>
+                <br><br>
                 <script src="https://kit.fontawesome.com/95a02bd20d.js"></script>
 
                 <div class="container">
                    <div class="card">
-                     <div class="face face1">
+                     <div class="face face1 face1-grade">
                        <div class="content">
                           <i class="fab mb-2 fontB"><img src="./image/icon/grade-mc.png" width="80px" alt=""></i>            
-                         <h3>Grade</h3>
+                         <h3>Grades</h3>
                        </div>
                      </div>
-                     <div class="face face2">
-                       <div class="content">
+                     <div class="face face2 grade">
+                       <div class="content cont-grade">
                         <p>
                             <div class="fontB nc"><p>Les Grades :</p></div>
                             <ul class="list-left nostyle">
@@ -102,24 +143,25 @@
                             </ul>
                         </p>
                        </div>
-                     </div>
+                      </div>
+                      <br>
                   </div>
                   
                   <div class="card">
                      <div class="face face1">
                        <div class="content">
-                        <i class="fab mb-2 fontB"><img src="./image/icon/cle-mc.png" width="80px" alt=""></i>                     
-                    <h3>Key</h3>
+                        <i class="fab mb-2 fontB"><img src="https://www.edencraft.fr/storage/packages/OvaOvpGE6BZPZfATa07ehgcdFegN0PtUVfEtmhjP.png" width="80px" alt=""></i>                     
+                    <h3>Keys</h3>
                        </div>
                      </div>
-                     <div class="face face2">
+                     <div class="face face2 key">
                        <div class="content">
                         <p>
-                          <div class="fontB nc"><p>Les key :</p></div>
+                          <div class="fontB nc"><p>Les keys :</p></div><br>
                           <ul class="list-left nostyle">
-                            <li class="nr nostyle d-hide"> ➜ 🔮 Dieu</li>
-                            <li class="nv nostyle d-hide"> ➜ 🧤 mythique</li>
-                            <li class="ng nostyle d-hide"> ➜ 👑 royal</li>
+                            <li class="nbc nostyle d-hide"><img src="https://thechest.ezcraft.fr/dl/super.png" width="30px" alt="➜"> Dieu</li>
+                            <li class="nv nostyle d-hide"><img src="https://wilderia.ezcraft.fr/dl/6207/cle-verte.png" width="30px" alt="➜"> Mythique</li>
+                            <li class="ng nostyle d-hide"><img src="https://kenezia.ezcraft.fr/dl/cle-leg.png" width="30px" alt="➜"> Royal</li>
                           </ul>
                       </p>
 
@@ -135,46 +177,62 @@
                           <br><h3>Sufix et Préfix</h3>
                        </div>
                      </div>
-                     <div class="face face2">
+                     <div class="face face2 titel">
                        <div class="content">
                         <p>
                           <div class="fontB nc"><p>Les Sufix et Préfix :</p></div>
-                            <div class="nbc nostyle d-hide text-center">《⸺⸺⊹⸺⸺》 <br> Pour les sufix faire un ticket discord <br> 《⸺⸺⊹⸺⸺》</div>
-                      </p>
+                            <div class="nb nostyle d-hide text-center">《⸺⸺~~~⸺⸺》 <br> Pour les sufix faire un ticket discord <br> 《⸺⸺~~~⸺⸺》</div>
+                        </p>
                        </div>
                      </div>
                   </div>
-                  
                 </div>
-                <br><br>
+                <br>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="paypal-grades center">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="hosted_button_id" value="MYCQDSZHX4SHS">
+                  <table>
+                  <tr><td><input type="hidden" name="on0" value="Grades">Grades</td></tr><tr><td><select class="paypal-inp" name="os0">
+                    <option value="Chevalier">Chevalier €0,40 EUR</option>
+                    <option value="Légendaire">Légendaire €0,70 EUR</option>
+                    <option value="Royal">Royal €1,00 EUR</option>
+                    <option value="Mythique">Mythique €1,50 EUR</option>
+                    <option value="Dieu">Dieu €2,00 EUR</option>
+                  </select> </td></tr>
+                  </table>
+                  <input type="hidden" name="currency_code" value="EUR">
+                  <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne" class="center my-2">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                <br>
                 <iframe class="center" src="https://discord.com/widget?id=835066512615800843&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                 <br>
                 <div class="Box-invite" id="contact">
-                  <a class="nostyle" href="https://discord.gg/e4GMTJabFn" >
+                  <a class="nostyle" href="https://discord.gg/MUNYeQWrvz" target="_blank">
                       <div class="txt">Lien Serveur Discord</div>
                   </a>
               </div>
-              <br>  
-                <!-- <button onclick="open(https://serveur-prive.net/minecraft/nenbox-11559/vote")" type="button" class="btn btn-outline-light center py-3 px-3"><b><h3>Voter NenBox !</h3></b></button> -->
-                <center><h4 class="text-muted">Pour obtenire les Grade, Key et sufix
-                  merci de bien vouloire commander directemnt sur<a href="https://discord.com/invite/e4GMTJabFn">NenBox.dicord</a></h4></center>
-                <br><br>
+              <br><br>
+              <center>
+                <h4 class="text-muted">Pour obtenire les Grade, Key et sufix merci de bien vouloire commander directemnt sur<a href="https://discord.com/invite/e4GMTJabFn">NenBox.dicord</a></h4>
+              </center>
+              <br>
               <div class="container">
-                <div class="btn fb-btn">
+                <div class="btn m-3 fb-btn">
                     <i class="fa fa-facebook" aria-hidden="true" id="fb"></i>
                 </div>
-                <div class="btn ig-btn">
-                    <i class="fa fa-instagram" aria-hidden="true" id="ig"></i>
+                <div class="btn m-3 ig-btn">
+                    <a href="https://www.youtube.com/channel/UCp5Fkc0JAJsX_WsR70UumqQ/videos" target="_blank"><i class="fa fa-youtube" aria-hidden="true" id="ig"></i></a>
                 </div>
-                <div class="btn tw-btn">
-                    <i class="fa fa-twitter" aria-hidden="true" id="tw"></i>
+                <div class="btn m-3 tw-btn">
+                    <a href="https://www.instagram.com/NenBox/" target="_blank"><i class="fa fa-instagram" aria-hidden="true" id="tw"></i></a>
                 </div>
             </div>
             </div>
         </div>
     </section>
     <footer>
-
+<script></script>
     </footer>
 </body>
 </html>

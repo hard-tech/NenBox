@@ -6,7 +6,7 @@
 @font-face {font-family: KanitL; src: url(../police/Kanit-ExtraLight.ttf);}
 
 body{
-    background-image: url(../image/background/8o7g81.png);
+    background-image: url(../image/background/fr-minecraft_wallpaper_SSY5.png);
     backdrop-filter: blur(3px);
     font-family: 'KanitM', sans-serif;
     background-position: top;
@@ -20,25 +20,19 @@ body{
 
 a{color: white;}
 .nr{ color: rgb(255, 0, 0); text-shadow: 0 0 2px rgb(255, 0, 0); }
-.nv{ color: rgb(0, 230, 0); text-shadow: 0 0 5px rgb(19, 233, 0);}
-.nvf{ color: rgb(0, 170, 0); text-shadow: 0 0 2px rgb(19, 226, 0);}
-.nb{ color: rgb(0, 81, 255); text-shadow: 0 0 5px rgb(0, 82, 235) ;}
-.nbc{ color: rgb(0, 195, 255); text-shadow: 0 0 5px rgb(0, 195, 255) ;}
+.nv{ color: rgb(0, 206, 0); text-shadow: 0 0 5px rgb(19, 233, 0);}
+.nvf{ color: rgb(0, 155, 0); text-shadow: 0 0 2px rgb(19, 226, 0);}
+.nb{ color: rgb(0, 76, 240); text-shadow: 0 0 5px rgb(0, 82, 235) ;}
+.nbc{ color: rgb(0, 185, 241); text-shadow: 0 0 5px rgb(0, 195, 255) ;}
 .nvio{ color: rgb(119, 0, 255); text-shadow: 0 0 5px rgb(119, 0, 255);}
-.nj{ color: yellow; text-shadow: 0 0 5px yellow, 0 0 10px yellow; }
-.ng{ color: rgb(255, 183, 0); text-shadow: 0 0 5px rgb(255, 183, 0);}
+.nj{ color: rgb(218, 218, 0); text-shadow: 0 0 5px yellow, 0 0 10px yellow; }
+.ng{ color: rgb(228, 163, 0); text-shadow: 0 0 5px rgb(255, 183, 0);}
 .nbl{text-shadow:  0 0 5px rgb(231, 231, 231);}
 .cn{color: black;}  
 
 a{text-decoration: none;}
 
 .center{margin-left: auto; margin-right: auto; display: block;}
-
-
-
-/* ### imge ### */
-
-.ico-page{width: 40%;}
 
 
         /* ### code Box-invite ### */
@@ -77,14 +71,6 @@ a{text-decoration: none;}
       border-bottom: 2px solid;
       }
 
-      @media(min-width:380px){
-      .Box-invite{width: 320px;padding: 10px 15px;}
-      }
-      @media(max-width:380px){
-      .Box-invite{padding: 10px 10px;}
-      }
-
-
       .txt{
         margin: 2px auto;
         font-size: large;
@@ -93,7 +79,6 @@ a{text-decoration: none;}
 /* ### Box Shop ### */
   
   .container{
-    width: 1000px;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -107,9 +92,8 @@ a{text-decoration: none;}
 
 
   .container .card .face{
-    width:300px;
-    height: 200px;
     transition:.4s;
+    min-width: 230px;
   }
 
   /* .face1{border-top-left-radius: 15px;border-top-right-radius: 15px;} */
@@ -182,8 +166,6 @@ a{text-decoration: none;}
   
   .container .card:hover .face.face2{
       transform: translateY(0);
-  
-  
   }
   
   .container .card .face.face2 .content p{
@@ -218,31 +200,6 @@ a{text-decoration: none;}
   }
 
   /* ### intro ### */
-  @media (min-width:1300px) {
-    .intro{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  }
-
-  @media (max-width:1300px) {
-    .intro {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-    }
-
-    .container {
-      justify-content: center; 
-    }
-    .card{
-
-      margin-left: 20px;
-      margin-right: 20px;
-    }
-  }
 
   /* .presentation{
       background-image: url(../image/img/mc-player3.png);
@@ -268,4 +225,18 @@ a{text-decoration: none;}
     padding: 15px;
     border-radius: 15px;
     border: 2px solid #fff;
+  }
+
+  .ul-flex{display: flex;}
+  .player-icon{margin-bottom: 20px;}
+  .creeper-icon{margin: 20px;}
+
+  select.paypal-inp{
+    background-color: #333;
+    color: white;
+  }
+  option{
+    background-color: #333;
+    border: red solid 2px;
+    color: white;
   }

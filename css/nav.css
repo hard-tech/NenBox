@@ -39,11 +39,12 @@ a:not(.nostyle){
 }
 
 li:not(:first-child):not(.nostyle) a:hover {
-  border: 2px solid rgb(255, 102, 0);
-  background: rgba(255, 115, 0, 0.4);
-  box-shadow: 0 0 5px 1px #ff7b00;
-  transition-duration: 0.1s;
-  border-bottom: 10px solid #ff9100;
+  border: 2px solid rgb(163, 87, 0);
+  background: rgba(255, 136, 0, 0.4);
+  box-shadow: 0 0 5px 1px #9b4b00;
+  transition-duration: 0.3s;
+  border-bottom: 10px solid #863c00
+  ;
 }
 
 .logo-nav{
